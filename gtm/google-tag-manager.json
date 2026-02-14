@@ -1,19 +1,19 @@
 {
     "_licence": "@license GNU General Public License v3.0: Betterprompt Rocket Container",
-    "_licence_copyright": "Copyright (c) 2025 Andy Futcher",
+    "_licence_copyright": "Copyright (C) 2026 Better Prompt Pty Ltd.",
     "_licence_permission": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.",
     "_licence_warranty": "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>. ",
-    "_version": "0.8",
+    "_version": "0.8.30",
     "_branch": "dev",
     "exportFormatVersion": 2,
-    "exportTime": "2025-09-22 07:15:01",
+    "exportTime": "2026-02-14 08:00:00",
     "containerVersion": {
         "container": {
-            "name": "Betterprompt Rocket Container",
+            "name": "Betterprompt Rocket GTM Container",
             "usageContext": [
                 "WEB"
             ],
-            "fingerprint": "1750976955129"
+            "fingerprint": "1751180087193"
         },
         "tag": [
             {
@@ -39,7 +39,7 @@
                         "value": "{{Configuration Event Settings}}"
                     }
                 ],
-                "fingerprint": "1751155628596",
+                "fingerprint": "1768551764193",
                 "firingTriggerId": [
                     "2147479573"
                 ],
@@ -48,7 +48,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -79,7 +79,7 @@
                         "value": "{{Configuration Event Settings}}"
                     }
                 ],
-                "fingerprint": "1751155628596",
+                "fingerprint": "1768551764195",
                 "firingTriggerId": [
                     "297",
                     "296"
@@ -89,7 +89,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -120,7 +120,7 @@
                         "value": "{{Configuration Event Settings}}"
                     }
                 ],
-                "fingerprint": "1751155628596",
+                "fingerprint": "1768551764193",
                 "firingTriggerId": [
                     "237"
                 ],
@@ -129,7 +129,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -160,7 +160,7 @@
                         "value": "{{Configuration Event Settings}}"
                     }
                 ],
-                "fingerprint": "1751155628597",
+                "fingerprint": "1768551764194",
                 "firingTriggerId": [
                     "306"
                 ],
@@ -169,7 +169,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -178,6 +178,7 @@
                 "tagId": "327",
                 "name": "Conversion Linker",
                 "type": "gclidw",
+                "notes": "Leave disabled, \"main.track.domains\" will do this same and allow personalisation bucket and AB test alignment too.",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
@@ -195,7 +196,7 @@
                         "value": "false"
                     }
                 ],
-                "fingerprint": "1751155628595",
+                "fingerprint": "1768551764194",
                 "firingTriggerId": [
                     "2147479573"
                 ],
@@ -204,7 +205,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -276,7 +277,7 @@
                         "value": "{{Configuration Event Settings}}"
                     }
                 ],
-                "fingerprint": "1751155628596",
+                "fingerprint": "1768551764195",
                 "firingTriggerId": [
                     "317",
                     "289",
@@ -289,7 +290,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -392,7 +393,7 @@
                         "value": "{{Configuration Event Settings}}"
                     }
                 ],
-                "fingerprint": "1751155628596",
+                "fingerprint": "1768551764195",
                 "firingTriggerId": [
                     "240"
                 ],
@@ -401,7 +402,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -432,7 +433,7 @@
                         "value": "{{Configuration Event Settings}}"
                     }
                 ],
-                "fingerprint": "1751155628597",
+                "fingerprint": "1768551764194",
                 "firingTriggerId": [
                     "251"
                 ],
@@ -441,7 +442,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -493,7 +494,7 @@
                         "value": "{{Configuration Event Settings}}"
                     }
                 ],
-                "fingerprint": "1751155628596",
+                "fingerprint": "1768551764197",
                 "firingTriggerId": [
                     "302"
                 ],
@@ -502,7 +503,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -533,7 +534,7 @@
                         "value": "{{Configuration Event Settings}}"
                     }
                 ],
-                "fingerprint": "1751155628597",
+                "fingerprint": "1768551764196",
                 "firingTriggerId": [
                     "316"
                 ],
@@ -542,7 +543,7 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
                 }
             },
             {
@@ -604,7 +605,7 @@
                         "value": "{{Configuration Measurement ID}}"
                     }
                 ],
-                "fingerprint": "1751155628596",
+                "fingerprint": "1768551920090",
                 "firingTriggerId": [
                     "312"
                 ],
@@ -614,7 +615,139 @@
                     "type": "MAP"
                 },
                 "consentSettings": {
-                    "consentStatus": "NOT_SET"
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "tagId": "363",
+                "name": "Google Analytics - Navigation - Page Unload",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "page_unload"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Configuration Measurement ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{Configuration Event Settings}}"
+                    }
+                ],
+                "fingerprint": "1768551764194",
+                "firingTriggerId": [
+                    "362"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "tagId": "373",
+                "name": "Google Analytics - Navigation - Outbound Link",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "link_url"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Click URL Path}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "link_domain"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Click Hostname}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "outbound"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Click Outbound}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Configuration Measurement ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{Configuration Event Settings}}"
+                    }
+                ],
+                "fingerprint": "1768551764147",
+                "firingTriggerId": [
+                    "370",
+                    "371"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
                 }
             }
         ],
@@ -746,7 +879,7 @@
                             {
                                 "type": "TEMPLATE",
                                 "key": "arg1",
-                                "value": "(main\\.|purchase|refund).*"
+                                "value": "(gtm\\.|main\\.|purchase|refund).*"
                             },
                             {
                                 "type": "BOOLEAN",
@@ -811,7 +944,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1751155616983"
+                "fingerprint": "1752788522070"
             },
             {
                 "accountId": "6006385422",
@@ -972,7 +1105,7 @@
                             {
                                 "type": "TEMPLATE",
                                 "key": "arg1",
-                                "value": "main.page.loaded"
+                                "value": "main.page.hydrated"
                             }
                         ]
                     }
@@ -994,7 +1127,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1751155617030"
+                "fingerprint": "1752787985194"
             },
             {
                 "accountId": "6006385422",
@@ -1175,7 +1308,7 @@
                             {
                                 "type": "TEMPLATE",
                                 "key": "arg1",
-                                "value": "main.page.loaded"
+                                "value": "main.page.hydrated"
                             }
                         ]
                     }
@@ -1212,7 +1345,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1751155617031"
+                "fingerprint": "1752787991364"
             },
             {
                 "accountId": "6006385422",
@@ -1813,6 +1946,163 @@
                     }
                 ],
                 "fingerprint": "1751155617032"
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "triggerId": "362",
+                "name": "Navigation - Page Unload",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "main.page.unload"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "main.page.unload"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1752788189291"
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "triggerId": "370",
+                "name": "Navigation - Link Click - Outbound",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Outbound}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Target}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "_blank"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1768551764147"
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "triggerId": "371",
+                "name": "Navigation - Link Click - New Window - Outbound",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Outbound}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Target}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "_blank"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1768551764147"
             }
         ],
         "variable": [
@@ -2295,7 +2585,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "defaultValue",
-                        "value": "G-XXXXXXXXXX"
+                        "value": "G-XXXXXXXX"
                     },
                     {
                         "type": "LIST",
@@ -2307,25 +2597,20 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "key",
-                                        "value": "{{Page Domain}}"
+                                        "value": "example.com"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "G-XXXXXXXXXX"
+                                        "value": "G-XXXXXXXX"
                                     }
                                 ]
                             }
                         ]
                     }
                 ],
-                "fingerprint": "1751155684876",
-                "formatValue": {
-                    "convertUndefinedToValue": {
-                        "type": "TEMPLATE",
-                        "value": "G-XXXXXXXXXX"
-                    }
-                }
+                "fingerprint": "1768551852438",
+                "formatValue": {}
             },
             {
                 "accountId": "6006385422",
@@ -2337,12 +2622,20 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "main.meta.canonical"
+                        "value": "main.meta.canonical.href"
                     }
                 ],
-                "fingerprint": "1751155684879",
+                "fingerprint": "1757581422788",
                 "formatValue": {
-                    "caseConversionType": "LOWERCASE"
+                    "caseConversionType": "LOWERCASE",
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "{{Page URL}}"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "{{Page URL}}"
+                    }
                 }
             },
             {
@@ -3058,12 +3351,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "awareness"
+                                        "value": "channel"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{User Awareness}}"
+                                        "value": "{{Session Channel}}"
                                     }
                                 ]
                             },
@@ -3088,12 +3381,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
-                                        "value": "traffic_type"
+                                        "value": "awareness"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameterValue",
-                                        "value": "{{Traffic Type}}"
+                                        "value": "{{User Awareness}}"
                                     }
                                 ]
                             },
@@ -3178,6 +3471,21 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
+                                        "value": "traffic_type"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Traffic Type}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
                                         "value": "event_id"
                                     },
                                     {
@@ -3241,7 +3549,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1751155684875"
+                "fingerprint": "1768551794973"
             },
             {
                 "accountId": "6006385422",
@@ -3574,7 +3882,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1751155684875"
+                "fingerprint": "1768551813517"
             },
             {
                 "accountId": "6006385422",
@@ -4604,10 +4912,10 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "main.session.internalReferral"
+                        "value": "main.session.internal"
                     }
                 ],
-                "fingerprint": "1751155684878",
+                "fingerprint": "1751159494267",
                 "formatValue": {
                     "caseConversionType": "LOWERCASE",
                     "convertNullToValue": {
@@ -4674,6 +4982,142 @@
                 "formatValue": {
                     "caseConversionType": "LOWERCASE"
                 }
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "variableId": "364",
+                "name": "Session Channel",
+                "type": "j",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "main.session.channel"
+                    }
+                ],
+                "fingerprint": "1765571461911",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE",
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "direct"
+                    }
+                }
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "variableId": "365",
+                "name": "Page URL Path",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){return ((window.location.href.split('=')[0]).split('?')[0]).split('#')[0];}"
+                    }
+                ],
+                "fingerprint": "1768551764146",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE"
+                }
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "variableId": "366",
+                "name": "Referrer Path",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){return ((window.document.referrer.split('=')[0]).split('?')[0]).split('#')[0];}"
+                    }
+                ],
+                "fingerprint": "1768551764146",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE"
+                }
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "variableId": "367",
+                "name": "Click Hostname",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "stripWww",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "HOST"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customUrlSource",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1768551764146",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE"
+                }
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "variableId": "368",
+                "name": "Click URL Path",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){return ((({{Click URL}}).split('=')[0]).split('?')[0]).split('#')[0];}"
+                    }
+                ],
+                "fingerprint": "1768551764146",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE"
+                }
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "variableId": "369",
+                "name": "Click Outbound",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){if((typeof {{Click URL Path}}!=\"string\")||(typeof {{Page Host Name}}!=\"string\")){return false;};return ({{Click Hostname}}=={{Page Host Name}})?false:true;}"
+                    }
+                ],
+                "fingerprint": "1768551764147",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6006385422",
+                "containerId": "63301193",
+                "variableId": "372",
+                "name": "Consent Mode",
+                "type": "j",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "main.consent.config.preset"
+                    }
+                ],
+                "fingerprint": "1768551764147",
+                "formatValue": {}
             }
         ],
         "builtInVariable": [
@@ -4762,6 +5206,7 @@
                 "name": "Video Percent"
             }
         ],
-        "fingerprint": "1751155694738"
+        "fingerprint": "1768551962254",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6006385422/containers/63301193/versions/0?apiLink=version"
     }
 }

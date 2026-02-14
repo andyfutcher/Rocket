@@ -1,31 +1,41 @@
-<!-- <p align="center">
-    <a href="https://www.betterprompt.com/">
-        <img src="https://www.betterprompt.com/images/betterprompt-web.svg" alt="Betterprompt Logo" width="1075" height="300">
+<p align="center">
+    <a href="https://www.betterprompt.com/prompt/rocket">
+        <img src="https://www.betterprompt.com/images/betterprompt-web.svg" alt="Better Prompt" width="2900" height="600">
     </a>
-</p> -->
+</p>
 
-<h1 align="center">Betterprompt Rocket</h1>
-Betterprompt Rocket is an accessibility aware template putting users and web developers first. This makes your website into a living document through a collection of rules and interactive roles adapting the content delivery, inferred by behaviour and browser insights. Start your next project with a modern template that makes designing and building websites easier and faster. Leveraging serverless architecture for performance and millions of styling possibilities, you can build a small website in minutes or maintain a significant digital presence with Betterprompt.com.
+<h1 align="center">Betterprompt Rocket 🚀</h1>
+<p align="center"><strong>The World’s Simplest (and Smallest) LLM-Native Web Framework</strong></p>
 
-The Betterprompt Rocket Main.HTML project provides you with a truly portable website builder template. Powered by Betterprompt Rocket Main.JS Under the hood!
+Better Prompt Rocket is an **AI-optimized, accessibility-first web template** designed for the generative era. While traditional frameworks are built for human eyes, Rocket is built for **Machine Understanding**. By leveraging hyper-semantic HTML and a zero-dependency architecture, Rocket allows LLMs to generate, modify, and scale digital properties with perfect accuracy and minimal token overhead.
 
+> **Why Rocket?** Because the best way to build a website in 2026 isn't by writing code; it's by providing context to an AI that speaks "Betterprompt Rocket."
 
-## Project objective
-The objective of Betterprompt Rocket Main.JS is to deliver the best possible experience for website users, developers and website owners. 
-To achieve this, Betterprompt Rocket Main.JS creates a few easy to follow standards that when applied in web development, help streamline the complex processes of fetching resources, rendering layout, applying personalisation and measuring performance. 
+---
 
-This functionality is platform agnostic, accessibility aware and has no need for backend software packages, costly infrastructure or connectivity requirements.
+## AI-Optimized Advantages
+* **Token Efficiency:** Minimalist structure ensures your entire site architecture fits within standard LLM context windows.
+* **Semantic Predictability:** Uses strict ARIA and HTML5 standards, reducing AI "hallucinations" during component generation.
+* **Prompt-Ready Templates:** Includes built-in system prompts to help your AI agent understand how to extend the site.
+* **Client-Side Intelligence:** Platform-agnostic JS that allows AI-generated content to adapt to user behavior in real-time.
 
+## Project Objective
+The objective of Better Prompt's Rocket project is to bridge the gap between **Generative AI** and **Web Performance**. We provide a 'Living Document' standard that allows AI agents to fetch resources, render layouts, and apply personalization without the friction of complex backend dependencies.
+
+---
 
 ## Getting started
 Several quick start options are available:
 
-- [Download the latest release](https://github.betterprompt.com/rocket/releases) or Download the repo ZIP from a branch you choose.
-- Clone the repo: `git clone https://github.betterprompt.com/rocket`
+- [Download the latest release](https://github.betterprompt.com/Rocket/releases) or Download the repo ZIP from a branch you choose.
+- Clone the repo: `git clone https://github.betterprompt.com/Rocket`
 
 
 ## Change log
 Version 0.8 - Personalisation Update 
+ - Timezone, language and channel personalisation updated 
+ - Improved humans.txt and fetch handler
+ - Added dependant resources support
  - No trailing slash requirement for local development
  - Global For attribute and slideshow flexibility
  - Better error handling
@@ -46,6 +56,4 @@ Version 0.6-beta - Consent Release
 
 ### About the developer
 
-Copyright (C) 2025 **Andy Futcher**, I am the developer and maintainer of Main.JS and Betterprompt Rocket project and professional analyst at a not-for-profit health insurer.
-
-Betterprompt Rocket is free and open source and will always be, our goal is to give everyone possible a first class ticket to the most well known and well-written markup language on earth; HTML. This is not just because of the projects chosen licence (GPLv3,) but it's a commitment to remain impartial and community and our core focus of portability and maintainability for your website and digital properties.
+Betterprompt 🚀 Rocket is free and open source and will always be, our goal is to give everyone possible a first class ticket to the most well known and well-written markup language on earth; HTML. This is not just because of the projects chosen licence (GPLv3,) but it's a commitment to remain impartial and community and our core focus of portability and maintainability for your website and digital properties.
