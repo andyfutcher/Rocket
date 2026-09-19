@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <!-- Page Customisation: START -->
@@ -23,8 +23,8 @@
         # Betterprompt Rocket Main.JS is a modern, lightweight and portable website JavaScript framework, Copyright (C) 2026 Better Prompt Pty Ltd. See <https://www.betterprompt.com/> for more
         # This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
         # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>. 
-        # Main.JS not modified from original. Date: 2026-02-14 ### */
-        var main={version:{sem:{main:0,minor:8,patch:30},branch:'dev',htmlless:false},meta:{},js:{proto:{fs:'/',fs2:'//',https:'https:',http:'http:',file:'file:'},create:{base:document.createElement('base'),theme:document.createElement('link'),script:document.createElement('script'),style:document.createElement("style")},css:{loaded:false},regex:{base:/.*(\:\/\/|public\B|-html\b|-js\b|-dev\b|-rc\b|-main\b|-com\b|-com-[a-z]|-co-[a-z])[a-zA-Z0-9\-\_\.]*/i}}}; // Declare Main Object
+        # Main.JS not modified from original. Date: 2026-09-19 ### */
+        var main={version:{sem:{main:0,minor:8,patch:66},branch:'dev',htmlless:false},meta:{},js:{proto:{fs:'/',fs2:'//',https:'https:',http:'http:',file:'file:'},create:{base:document.createElement('base'),theme:document.createElement('link'),script:document.createElement('script'),style:document.createElement("style")},css:{loaded:false},regex:{base:/.*(\:\/\/|public\B|-html\b|-js\b|-dev\b|-rc\b|-main\b|-com\b|-com-[a-z]|-co-[a-z])[a-zA-Z0-9\-\_\.]*/i}}}; // Declare Main Object
         main.meta.canonical=document.querySelector('link[rel="canonical"]')||{href:null};main.meta.canonical.href=main.meta.canonical.href||main.meta.canonical.content||window.location.href.split('?')[0]; // Webpages Canonical URL
         main.meta.theme=document.querySelector('meta[name="theme"]')||document.querySelector('meta[property$=".theme"]')||{content:null};main.meta.theme.content=main.meta.theme.content||main.meta.theme.href||'default.css'; // Webpages Canonical URL
         switch(window.location.protocol){case main.js.proto.https:main.js.create.base.href=(window.location.origin+window.location.pathname).match(main.js.regex.base)[0]+main.js.proto.fs; // Origin Execution
@@ -46,7 +46,7 @@
 </head>
 <body>
     <!-- Example Page -->
-    <dialog role="alertdialog" open>
+    <div role="alertdialog" open>
         <div id="blank-page" aria-label="Main.JS Example Install">
             <div>
                 <h1>Betterprompt Main.JS Example Install: <small><code><strong>install-snippet</strong>.html</code></small></h1>
@@ -57,6 +57,6 @@
                 </p>
             </div>
         </div>
-    </dialog>
+    </div>
 </body>
 </html>

@@ -33,6 +33,9 @@ Several quick start options are available:
 
 ## Change log
 Version 0.8 - Personalisation Update 
+ - Faster loading, lazy loading and dependancy script loading
+ - Translation support and flexible consent messaging 
+ - Improved HTML DOM Observer and special attributes
  - Timezone, language and channel personalisation updated 
  - Improved humans.txt and fetch handler
  - Added dependant resources support
